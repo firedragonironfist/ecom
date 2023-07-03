@@ -16,7 +16,7 @@ const Navbar = () => {
   );
 
   const checkout = async () => {
-    await fetch("http://localhost:4000/checkout", {
+    await fetch("https://ecom-ik60.onrender.com//checkout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
